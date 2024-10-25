@@ -9,28 +9,64 @@
 
 <h1>Register</h1>
 
-@if(currUsers.Count == 0) 
-{
-    <p>loading...</p>
-}
-else
-{
-    <ul>
-        @foreach(UserDTO user in currUsers) 
-        {
-            <li>@user.Username</li>
-            <li>@user.Firstname</li>
-        }
-    </ul>
-}
+<EditForm Model= "@user" OnValidSubmit="RegisterUser">
+<DataAnnotationsValidator/>
+<ValidationSummary/>
+
+    <div>
+        <label>First Name:</label>
+        <input type="text" class="form-control" @bind-value="user.Firstname"/>
+        <ValidationMessage For="@(() => user.Firstname)" />
+    </div>
+    
+    <div>
+        <label>Last Name:</label>
+        <input type="text" class="form-control" @bind-value="user.Lastname"/>
+        <ValidationMessage For="@(() => user.Lastname)" />
+    </div>
+
+    <div>
+        <label>Email:</label>
+        <input type="text" class="form-control" @bind-value="user.Email"/>
+        <ValidationMessage For="@(() => user.Email)" />
+    </div>
+    
+    <div>
+        <label>Username:</label>
+        <input type="text" class="form-control" @bind-value="user.Username"/>
+        <ValidationMessage For="@(() => user.Username)" />
+    </div>
+
+    <div>
+        <label>Password:</label>
+        <input type="password" class="form-control" @bind-value="user.Password"/>
+        <ValidationMessage For="@(() => user.Password)" />
+    </div>
+
+    <div>
+        <label>Confirm Password:</label>
+        <input type="password" class="form-control" @bind-value="user.ConfirmPassword"/>
+        <ValidationMessage For="@(() => user.ConfirmPassword)" />
+    </div>
+
+    <br>
+
+    <button type="submit" class="btn btn-primary">
+       Register
+    </button>
+
+
+</EditForm>
 
 @code 
 {
-    List<UserDTO> currUsers = new List<UserDTO>();
+    private PostUserDTO user = new PostUserDTO();
 
-    protected override async Task OnInitializedAsync() 
-    {
-        currUsers = await userService.GetUsersAsync();
-    }
+private async Task RegisterUser() 
+{
+await userService.PostUserAsync(user);
+}
+
+    
 
 }
