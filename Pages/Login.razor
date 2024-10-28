@@ -8,38 +8,58 @@
 <PageTitle>Login</PageTitle>
 
 <h1>Login</h1>
+
+@if(loginCheck.Length > 0) 
+{
+    <p style="color: red;">@loginCheck</p>
+}
+
 <form>
-<div>
-    <label for="loginusername">Username:</label>
-    <input type="text" class="form-control" @bind-value = "username" id="loginusername"> 
-</div>
 
-<div>
-    <label for="loginpassword">Password:</label>
-    <input type="password" class="form-control" @bind-value = "password" id="loginpassword"> 
-</div>
+    <div>
+        <label for="loginusername">Username:</label>
+        <input type="text" class="form-control" @bind-value="username" id="loginusername"> 
+    </div>
 
-<button type="button" onclick="UserLogin" >
-    Login
-</button>
+    <div>
+        <label for="loginpassword">Password:</label>
+        <input type="password" class="form-control" @bind-value="password" id="loginpassword"> 
+    </div>
 
+    <br>
+
+    <button type="button" @onclick="UserLogin">Login</button>
 
 </form>
 
 @if(userService.Isloggedin)
 {
-<p>woo</p>
+    <p>woo</p>
+    <p>@userService.activeUser.Username</p>
 }
-@code {
 
+@code {
     private string username = string.Empty;
-    private string password = string.Empty; 
+    private string password = string.Empty;
+    private string loginCheck = string.Empty;
     private async void UserLogin() 
         {
-           UserDTO result =  await userService.LoginAsync(username, password); 
-           userService.activeUser = result; 
-           userService.Isloggedin = true; 
-            username = string.Empty;
-            password = string.Empty; 
+            try
+            {
+                UserDTO result =  await userService.LoginAsync(username, password);
+                userService.activeUser = result;
+                userService.Isloggedin = true;
+                username = string.Empty;
+                password = string.Empty;
+                if(loginCheck.Length > 0)
+                {
+                    loginCheck = string.Empty;
+                }
+            }
+            catch(Exception ex)
+            {
+                loginCheck = ex.Message;
+            }
+            StateHasChanged();
         }
 }

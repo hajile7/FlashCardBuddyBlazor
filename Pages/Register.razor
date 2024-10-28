@@ -9,9 +9,15 @@
 
 <h1>Register</h1>
 
+@if(successMessage.Length != 0)
+{
+    <p style="color: green">@successMessage</p>
+}
+
 <EditForm Model= "@user" OnValidSubmit="RegisterUser">
-<DataAnnotationsValidator/>
-<ValidationSummary/>
+
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
 
     <div>
         <label>First Name:</label>
@@ -51,21 +57,27 @@
 
     <br>
 
-    <button type="submit" class="btn btn-primary">
-       Register
-    </button>
-
+    <button type="submit" class="btn btn-primary">Register</button>
 
 </EditForm>
 
 @code 
 {
+    // Variables
     private PostUserDTO user = new PostUserDTO();
 
-private async Task RegisterUser() 
-{
-await userService.PostUserAsync(user);
-}
+    string successMessage = string.Empty;
+
+    // Methods
+    private async Task RegisterUser() 
+    {
+        if(await userService.PostUserAsync(user) == true) 
+        {
+            successMessage = "Registration complete.";
+            this.user = new PostUserDTO();
+        }
+        
+    }
 
     
 
