@@ -4,17 +4,17 @@
 @page "/Flashcards"
 
 @inject FlashcardService flashcardService;
-
+@inject UserService userservice; 
 <PageTitle>Flashcards</PageTitle>
 
 <h1>Flashcards:</h1>
 
-@if(flashcards.Count == 0)
+@if(userservice.Isloggedin)
 {
-    <p>loading...</p>
+    <p>@userservice.activeUser.Username</p>
 }
-else
-{
+
+
     <ul>
         @foreach(Flashcard card in flashcards)
         {
@@ -22,7 +22,7 @@ else
             <li>@card.Answer</li>
         }
     </ul>
-}
+
 
 @code
 {
@@ -30,6 +30,13 @@ else
 
     protected override async Task OnInitializedAsync() 
     {
-        flashcards = await flashcardService.GetFlashCardsAsync(1);
-    }
+        if (userservice.Isloggedin) 
+        {
+            flashcards = await flashcardService.GetFlashCardsAsync(userservice.activeUser.Userid);
+        }
+        if(flashcards.Count > 0) 
+        {
+            StateHasChanged(); 
+        }
+    } 
 }

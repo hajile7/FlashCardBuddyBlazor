@@ -1,6 +1,7 @@
 using System.Net;
 using System.Net.Http.Json;
 using FlashCardBuddyBlazor.Models;
+using FlashCardBuddyBlazor.Pages;
 
 namespace FlashCardBuddyBlazor.Services 
 {
@@ -29,9 +30,9 @@ namespace FlashCardBuddyBlazor.Services
             return response.IsSuccessStatusCode;
         }
 
-        public async Task<UserDTO> LoginAsync(string username, string password)
+        public async Task<UserDTO> LoginAsync(LoginModel loginmodel)
         {
-            var response = await _httpclient.GetAsync($"{url}/api/User/Login?username={username}&password={password}");
+            var response = await _httpclient.PostAsJsonAsync($"{url}/api/User/Login",loginmodel);
             if(response.IsSuccessStatusCode)
             {
                 var result = await response.Content.ReadFromJsonAsync<UserDTO>();

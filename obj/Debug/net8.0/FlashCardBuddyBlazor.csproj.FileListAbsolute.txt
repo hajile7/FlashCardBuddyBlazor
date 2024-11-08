@@ -1030,19 +1030,26 @@ C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBla
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\refint\FlashCardBuddyBlazor.dll
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.pdb
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\ref\FlashCardBuddyBlazor.dll
+C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.csproj.AssemblyReference.cache
+C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.AssemblyInfoInputs.cache
+C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.AssemblyInfo.cs
+C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.csproj.CoreCompileInputs.cache
+C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.sourcelink.json
+C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.js
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.map
+C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.10.5loapzxkc8.js
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.wasm
+C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.10.nwqvep4zwe.js
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.js.map
+C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\FlashCardBuddyBlazor.pdb
+C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\FlashCardBuddyBlazor.wasm
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\icudt_CJK.dat
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\icudt_no_CJK.dat
-C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
-C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.10.5loapzxkc8.js
-C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.10.nwqvep4zwe.js
-C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\FlashCardBuddyBlazor.pdb
-C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\FlashCardBuddyBlazor.wasm
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.wasm
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.wasm
@@ -1641,13 +1648,6 @@ C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debu
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\icudt_CJK.dat
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\icudt_EFIGS.dat
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\bin\Debug\net8.0\icudt_no_CJK.dat
-C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.csproj.AssemblyReference.cache
-C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.AssemblyInfoInputs.cache
-C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.AssemblyInfo.cs
-C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.csproj.CoreCompileInputs.cache
-C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.sourcelink.json
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm

@@ -1,5 +1,6 @@
 @using FlashCardBuddyBlazor.Models;
 @using FlashCardBuddyBlazor.Services;
+@inject NavigationManager Navmanager; 
 
 @page "/register"
 
@@ -68,13 +69,37 @@
 
     string successMessage = string.Empty;
 
+    private LoginModel loginmodel = new(); 
+
     // Methods
     private async Task RegisterUser() 
     {
         if(await userService.PostUserAsync(user) == true) 
         {
             successMessage = "Registration complete.";
+            
+            loginmodel = new LoginModel
+            { 
+                username = user.Username, 
+                password = user.Password
+            }; 
+
             this.user = new PostUserDTO();
+
+            try {
+                UserDTO user = await userService.LoginAsync(loginmodel);
+
+                if (user != null) 
+                {
+                    userService.activeUser = user;
+                    userService.Isloggedin = true; 
+                    Navmanager.NavigateTo("/flashcards"); 
+                }
+            }
+
+            catch (Exception ex) {
+                Console.WriteLine($"login failed {ex}"); 
+            }
         }
         
     }

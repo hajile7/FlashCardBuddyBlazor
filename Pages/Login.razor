@@ -1,5 +1,6 @@
 @using FlashCardBuddyBlazor.Models;
 @using FlashCardBuddyBlazor.Services;
+@inject NavigationManager NavManager;
 
 @page "/login"
 
@@ -14,23 +15,14 @@
     <p style="color: red;">@loginCheck</p>
 }
 
-<form>
+<EditForm Model="@loginmodel" OnValidSubmit="UserLogin">
+ 
+ <input type="text" placeholder="Username" @bind-value="loginmodel.username"/>
 
-    <div>
-        <label for="loginusername">Username:</label>
-        <input type="text" class="form-control" @bind-value="username" id="loginusername"> 
-    </div>
+<input type="password" placeholder="Password" @bind-value="loginmodel.password"/>
 
-    <div>
-        <label for="loginpassword">Password:</label>
-        <input type="password" class="form-control" @bind-value="password" id="loginpassword"> 
-    </div>
-
-    <br>
-
-    <button type="button" @onclick="UserLogin">Login</button>
-
-</form>
+<button type="submit">Login</button>
+</EditForm>
 
 @if(userService.Isloggedin)
 {
@@ -39,18 +31,16 @@
 }
 
 @code {
-    private string username = string.Empty;
-    private string password = string.Empty;
+    private LoginModel loginmodel = new();
     private string loginCheck = string.Empty;
     private async void UserLogin() 
         {
             try
             {
-                UserDTO result =  await userService.LoginAsync(username, password);
+                UserDTO result =  await userService.LoginAsync(loginmodel);
                 userService.activeUser = result;
                 userService.Isloggedin = true;
-                username = string.Empty;
-                password = string.Empty;
+                this.loginmodel = new LoginModel();
                 if(loginCheck.Length > 0)
                 {
                     loginCheck = string.Empty;
@@ -61,5 +51,9 @@
                 loginCheck = ex.Message;
             }
             StateHasChanged();
+            if (userService.Isloggedin) 
+            {
+                NavManager.NavigateTo("/flashcards");
+            } 
         }
 }

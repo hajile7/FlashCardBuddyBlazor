@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlashCardBuddyBlazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e55ea129678016008163c6378c16af6c0d77a2f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e964f7a6da31105b5cd28197b574b8043a67dbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlashCardBuddyBlazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlashCardBuddyBlazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
