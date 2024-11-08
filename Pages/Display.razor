@@ -1,0 +1,9 @@
+@using FlashCardBuddyBlazor.Services
+
+@inject FlashcardService flashcardService
+
+@page "/display"
+
+<PageTitle>Display</PageTitle>
+
+<p>@flashcardService.stackChoice</p>

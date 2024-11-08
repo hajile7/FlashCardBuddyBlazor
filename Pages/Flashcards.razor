@@ -5,38 +5,57 @@
 
 @inject FlashcardService flashcardService;
 @inject UserService userservice; 
+@inject NavigationManager navManager;
+
 <PageTitle>Flashcards</PageTitle>
 
-<h1>Flashcards:</h1>
+<h1>@if(userservice.Isloggedin){<span>@userservice.activeUser.Username's</span>} Flashcard Stacks</h1>
+<hr>
 
-@if(userservice.Isloggedin)
+@if(userservice.Isloggedin) 
 {
-    <p>@userservice.activeUser.Username</p>
+    @foreach(string stack in userStacks)
+    {
+        <button @onclick="() => NavWithValue(stack)">@stack</button>
+        <br>
+    }
 }
 
-
-    <ul>
-        @foreach(Flashcard card in flashcards)
-        {
-            <li>@card.Question</li>
-            <li>@card.Answer</li>
-        }
-    </ul>
 
 
 @code
 {
-    List<Flashcard> flashcards = new List<Flashcard>();
-
+    List<Flashcard> allFlashcards = new List<Flashcard>();
+    List<string> userStacks = [];
+    string userSelection = "";
     protected override async Task OnInitializedAsync() 
     {
         if (userservice.Isloggedin) 
         {
-            flashcards = await flashcardService.GetFlashCardsAsync(userservice.activeUser.Userid);
+            allFlashcards = await flashcardService.GetAllFlashCardsAsync(userservice.activeUser.Userid);
         }
-        if(flashcards.Count > 0) 
+        if(allFlashcards.Count > 0) 
         {
+            GetStacks();
             StateHasChanged(); 
         }
     } 
+
+    private void GetStacks()
+    {
+        foreach(Flashcard card in allFlashcards)
+        {
+            if(!userStacks.Contains(card.Stack))
+            {
+                userStacks.Add(card.Stack); 
+            }
+        }
+    }
+
+    private void NavWithValue(string stack)
+    {
+        flashcardService.stackChoice = stack;
+        navManager.NavigateTo("/display");
+    }
+
 }

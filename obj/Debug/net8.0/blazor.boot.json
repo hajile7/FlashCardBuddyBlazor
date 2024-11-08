@@ -1,12 +1,12 @@
 {
   "mainAssemblyName": "FlashCardBuddyBlazor",
   "resources": {
-    "hash": "sha256-R6iMJ65sRafeibLaKtkIaqd6BO+AKoE/eiUmcOp42jo=",
+    "hash": "sha256-f2OU4ZEq+YejzmxWgtkNTrQj/e3kLFZaucuLeLJMcc4=",
     "jsModuleNative": {
-      "dotnet.native.8.0.10.5loapzxkc8.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
+      "dotnet.native.8.0.10.dttvpwtuld.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.8.0.10.nwqvep4zwe.js": "sha256-FjrgL9dY6dc2yUoXDWowSfachSgM8O29qUMWDQOJKRI="
+      "dotnet.runtime.8.0.10.39apnb5yx8.js": "sha256-FjrgL9dY6dc2yUoXDWowSfachSgM8O29qUMWDQOJKRI="
     },
     "wasmNative": {
       "dotnet.native.wasm": "sha256-4ymhDbG5daKbi9yL1L574jRRiFFQhiOrDJU5YAYALU4="
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-KvqZaNpjwhrOuzE4b4aMFsI+VUTyiWfoDI4zn4l9BM8=",
       "netstandard.wasm": "sha256-v+s7sWxtOM6bnOvC0jFrtnm6uMfbDymwl2nHNgbS2LM=",
       "System.Private.CoreLib.wasm": "sha256-pklll63uFQoY6vaD3vbluS9osYiJWLLLmob1yHFgepI=",
-      "FlashCardBuddyBlazor.wasm": "sha256-gOqMWSh/LoUJfQ9RDm1HLhrvkHw3iqLiTz1+S2eviQE="
+      "FlashCardBuddyBlazor.wasm": "sha256-0GI9xvcCZ1boYlanSU7bAeEKQDhxByJVvWXXDrvs9MI="
     },
     "pdb": {
-      "FlashCardBuddyBlazor.pdb": "sha256-tTZFqxlh6B6kFcFjUYZthGKrvM7UghP1QnJ26sS6o5A="
+      "FlashCardBuddyBlazor.pdb": "sha256-FLf0LFkaYfvJseuYYYKx9KqnGXfGo5ctnSpZCQKX2+M="
     }
   },
   "cacheBootResources": true,

@@ -2,9 +2,7 @@ C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBla
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.js
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.map
-C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.10.ky0au8keou.js
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.wasm
-C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.10.1xntewaa5z.js
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.js.map
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\FlashCardBuddyBlazor.pdb
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\FlashCardBuddyBlazor.wasm
@@ -213,7 +211,6 @@ C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBla
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\System.Net.WebClient.wasm.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.wasm.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\System.Linq.Expressions.wasm.gz
-C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.10.1xntewaa5z.js.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\netstandard.wasm.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Intrinsics.wasm.gz
@@ -326,7 +323,6 @@ C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBla
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\FlashCardBuddyBlazor.wasm.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Serialization.Xml.wasm.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.wasm.gz
-C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.10.ky0au8keou.js.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\System.Private.Xml.wasm.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\System.IO.Compression.Brotli.wasm.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\System.IO.FileSystem.Watcher.wasm.gz
@@ -1013,15 +1009,6 @@ C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBla
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\i0wghkcoyj.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\20rxmeqrcj.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\mh2xxopful.gz
-C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\xflkvy7d6j.gz
-C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\rckl9da07a.gz
-C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\ky0au8keou.gz
-C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\4pjghfhxl5.gz
-C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\1xntewaa5z.gz
-C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\ml1y5nt4g8.gz
-C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\8ze6ughh3e.gz
-C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\gkigijs5wv.gz
-C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\5ugi3f7gi7.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\khytdntyvz.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\o96bbpsu88.gz
 C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\fveyapdap7.gz
@@ -2062,3 +2049,16 @@ C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debu
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\refint\FlashCardBuddyBlazor.dll
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\FlashCardBuddyBlazor.pdb
 C:\Users\logan\source\repos\FlashCardBuddyFrontend\FlashCardBuddyBlazor\obj\Debug\net8.0\ref\FlashCardBuddyBlazor.dll
+C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.10.dttvpwtuld.js
+C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.10.39apnb5yx8.js
+C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.10.39apnb5yx8.js.gz
+C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.10.dttvpwtuld.js.gz
+C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\gsqam1bzs6.gz
+C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\yrpojpvlag.gz
+C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\dttvpwtuld.gz
+C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\8jqm1bzm7c.gz
+C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\39apnb5yx8.gz
+C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\d3b5uaod4t.gz
+C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\qc5pkvggmj.gz
+C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\e9fk0wvknf.gz
+C:\Users\Eli\source\repos\Group Projects\FlashCardBuddy(Logan)\FlashCardBuddyBlazor\obj\Debug\net8.0\compressed\q4f82dkrg3.gz

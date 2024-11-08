@@ -4,11 +4,11 @@ namespace FlashCardBuddyBlazor.Models
     {
         public int Flashcardid { get; set; }
 
-        public string Question { get; set; } = null!;
+        public string Question { get; set; } = string.Empty;
 
-        public string Answer { get; set; } = null!;
+        public string Answer { get; set; } = string.Empty;
 
-        public string? Stack { get; set; }
+        public string Stack { get; set; } = string.Empty;
 
         public int? Userid { get; set; }
 

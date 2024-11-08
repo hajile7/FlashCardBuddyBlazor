@@ -1873,19 +1873,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\logan\\.nuget\\packages\\": {}
+    "C:\\Users\\Eli\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\logan\\source\\repos\\FlashCardBuddyFrontend\\FlashCardBuddyBlazor\\FlashCardBuddyBlazor.csproj",
+      "projectUniqueName": "C:\\Users\\Eli\\source\\repos\\Group Projects\\FlashCardBuddy(Logan)\\FlashCardBuddyBlazor\\FlashCardBuddyBlazor.csproj",
       "projectName": "FlashCardBuddyBlazor",
-      "projectPath": "C:\\Users\\logan\\source\\repos\\FlashCardBuddyFrontend\\FlashCardBuddyBlazor\\FlashCardBuddyBlazor.csproj",
-      "packagesPath": "C:\\Users\\logan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\logan\\source\\repos\\FlashCardBuddyFrontend\\FlashCardBuddyBlazor\\obj\\",
+      "projectPath": "C:\\Users\\Eli\\source\\repos\\Group Projects\\FlashCardBuddy(Logan)\\FlashCardBuddyBlazor\\FlashCardBuddyBlazor.csproj",
+      "packagesPath": "C:\\Users\\Eli\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eli\\source\\repos\\Group Projects\\FlashCardBuddy(Logan)\\FlashCardBuddyBlazor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\logan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Eli\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1950,12 +1950,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[8.0.10, 8.0.10]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
